@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div>
+      <button>Assign To User</button>
+      <button>Assign To Team</button>
+      <select>
+        <option selected disabled>Update State</option>
+        <option>Validate</option>
+        <option>Invalidate</option>
+        <option>Reopen</option>
+      </select>
+    </div>
+    <table>
+        <tr>
+           <th></th>
+           <th>Number</th>
+           <th>Country</th>
+           <th>Question</th>
+           <th>Number of subquestions</th>
+        </tr>
+        <tr><td>+</td><td><p>1</p></td><td><p>China</p></td><td><p>What is a question?</p></td><td><p>2</p></td></tr>
+        <tr><td colspan="5">
+          <table >
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>Subquestion 1</td>
+              <td>Assigned to: Bob</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>Subquestion 2</td>
+              <td>Assigned to: Kelly</td>
+            </tr>
+          </table>
+        </td></tr>  
+    </table>
+  </body>
+</html>
